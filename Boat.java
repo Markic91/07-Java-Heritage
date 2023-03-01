@@ -4,7 +4,7 @@ public class Boat extends Vehicle {
     super(brand, kilometers);
   }
 
-@Override
+  @Override
   public String doStuff() {
     return "Je suis " + getBrand() + " je fais glou glou et j'ai " + getKilometers() + " kilometres au compteur sa race !!";
   }
