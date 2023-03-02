@@ -1,7 +1,7 @@
 public abstract class Vehicle {
   //attributs
-  String brand;
-  int kilometers;
+  private String brand;
+  private int kilometers;
 
   //constructor
   public Vehicle(String brand, int kilometers) {
